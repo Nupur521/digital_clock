@@ -14,13 +14,33 @@ body{
     -ms-transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
+    font-size: 1.7rem;
+    text-align: center;
+    border: 0.01rem solid rgb(83, 80, 80);
+    padding:3rem;
 }
 
 .clock_info{
     color: green;
+    font-weight: 900;
 }
 
 #time{
     display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    font-size: 7rem;
 }
 
+#date{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    border-radius: 0.3rem;
+    border: 0.01rem solid rgb(184, 179, 179);
+    padding:0.3rem;
+    width: 7rem;
+    margin-right: 1rem;
+}
