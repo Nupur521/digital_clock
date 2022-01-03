@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital_clock
-    </title>
-    <link rel="stylesheet" href="/styles/clock.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Gugi&family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <title>Digital_clock</title>
+    <link rel="stylesheet" href="./styles/clock.css">
 </head>
-
 <body>
-        <div class="neon_text">Clock </div>
-        <div class="main_div centered">
-            <div class="box_design hours" id="hour"></div>
-            <div class="colon">:</div>
-            <div class="box_design min" id="minute"></div>
-            <div class="colon">:</div>
-            <div class="box_design sec" id="second"></div>
+    <div class="digital_clock">
+        <h1 class="dgclock">Digital Clock</h1>
+        <div class="clock_info">
+    <div id="day_of_week">
+        Day of the week
+    </div>
+    <div id="time">
+        <div id="hours">
+            hours
         </div>
-
-    <script src="/js/index.js"></script>
+        :
+        <div id="minutes">
+            minutes
+        </div>
+        :
+        <div id="seconds">
+            seconds
+        </div>
+    </div>
+    <div id="date">
+        today's date
+    </div>
+    <div class="function_buttons">
+        <button id="start_button">start</button>
+        <button id="stop_button">stop</button>
+    </div>
+</div>
+</div>
+<script src="./js/index.js"></script>
 </body>
-
 </html>
